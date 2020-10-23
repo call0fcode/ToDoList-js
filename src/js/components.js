@@ -47,7 +47,6 @@ txtInput.addEventListener( 'keyup', ( event ) => {
     createTodoOnHTML( newTodo );
     txtInput.value = '';
 
-    console.log(todoList);
   }
 
 });
